@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <link rel="stylesheet" href="/2048-styles.css" />
+        <script src="/2048-app.js" defer></script>
+        <title>Jonathan Grigsby | 2048</title>
+    </head>
+    <body>
+        <div class="container">
+            <div class="info-header">
+                <div class="hud">
+                    <div class="title">2048</div>
+                    <div class="score-container">
+                        <div class="score-title">SCORE</div>
+                        <span id="score">0</span>
+                    </div>
+                </div>
+                <div class="links">
+                    <a href="" target="blank_">github</a>
+                    <a href="" class="reset">reset game</a>
+                    <a href="/index.html#projects">projects</a>
+                </div>
+            </div>
+
+            <p class="directions" id="results">
+                HOW TO PLAY: Use your arrow keys to move the tiles. Tiles with
+                the same number merge into one when they touch. Add them up to
+                reach 2048!
+            </p>
+            <div class="grid"></div>
+            <div class="original">
+                Original idea by Gabriele Cirulli,
+                <a href="https://play2048.co/" target="blank_">Play 2048</a>
+            </div>
+        </div>
+    </body>
+</html>
